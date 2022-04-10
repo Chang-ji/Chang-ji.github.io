@@ -3,7 +3,7 @@ module.exports = {
     title: `주니어 개발자의 개발 블로그`,
     description: `주니어 개발자로서의 저를 표현한 블로그입니다.`,
     author: `Changji`,
-    siteUrl: 'https://Chang-ji.github.io/',
+    siteUrl: 'https://flyhigh-developer.vercel.app/',
   },
   plugins: [
     {
@@ -84,7 +84,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://Chang-ji.github.io/',
+        siteUrl: 'https://flyhigh-developer.vercel.app/',
         stripQueryString: true,
       },
     },
