@@ -3,7 +3,7 @@ module.exports = {
     title: `주니어 개발자의 개발 블로그`,
     description: `주니어 개발자로서의 저를 표현한 블로그입니다.`,
     author: `Changji`,
-    siteUrl: 'https://flyhigh-developer.vercel.app/',
+    siteUrl: 'https://flyhigh-developer-4bdjz53m5-chang-ji.vercel.app',
   },
   plugins: [
     {
@@ -38,7 +38,7 @@ module.exports = {
         transformOptions: {
           fit: 'COVER',
         },
-      }
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
@@ -84,7 +84,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
-        siteUrl: 'https://flyhigh-developer.vercel.app/',
+        siteUrl: 'https://flyhigh-developer-4bdjz53m5-chang-ji.vercel.app',
         stripQueryString: true,
       },
     },
@@ -96,4 +96,4 @@ module.exports = {
       },
     },
   ],
-};
+}
