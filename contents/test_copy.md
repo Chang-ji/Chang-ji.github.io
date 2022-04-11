@@ -27,7 +27,3 @@ Robots.txt 파일은 검색 엔진에 어떤 페이지를 크롤링해도 되는
   [https://support.google.com/webmasters/answer/7451184?hl=ko&ref_topic=9460495](https://support.google.com/webmasters/answer/7451184?hl=ko&ref_topic=9460495)
 
 
-```C#
-int a = 3;
-int c = a + a;
-```
