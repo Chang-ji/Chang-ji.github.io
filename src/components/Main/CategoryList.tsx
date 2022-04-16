@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React, { FunctionComponent, ReactNode } from 'react'
 import styled from '@emotion/styled'
 import { Link } from 'gatsby'
@@ -35,7 +36,7 @@ const CategoryListWrapper = styled.div`
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const CategoryItem = styled(({ active, ...props }: GatsbyLinkProps) => (
   <Link {...props} />
-))<CategoryItemProps>`
+)) <CategoryItemProps>`
   margin-right: 20px;
   padding: 5px 0;
   font-size: 18px;
